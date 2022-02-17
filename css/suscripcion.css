@@ -1,0 +1,147 @@
+*{ 
+padding:0;
+margin: 0;
+}
+
+#portada { 
+	background: url(../fotos/suscripcion.png) no-repeat scroll;
+	background-size: cover;
+	background-position: center; 
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	height: 75vh;
+
+}
+#portada h2{
+	position: absolute;
+	background-color: hsla(0, 0%, 0%, 0.6); 
+	color: white;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	font-family: 'Times New Roman';
+	font-weight: 500;
+}	
+.formulario{
+	position: relative;
+	width: 100%;
+	height:700px;
+}
+	
+	.formulario{
+	position: relative;
+	}
+
+	.formu{
+	box-shadow:10px 5px 5px rgba(0, 0, 0, 0.7);
+	left: 10%;
+	position: absolute;
+	top: 42%;
+	font-size: 5px;
+	background: hsla(203, 100%, 80%, 0.5);
+	border: 1px solid #999999;
+	padding: 15px;
+	border-radius: 20px;
+    width:18%;
+	height: 310px;
+
+}
+.video{
+	position: absolute;
+	left: 50%;
+	top: 35%;
+}
+
+input{
+	font-size:13px;
+}
+.datos{
+
+	font-size: 9px;
+}
+.enviar{
+		position: absolute;
+width: 25%;
+left: 25%;
+bottom: 5%;
+}
+.borrar{
+	position: absolute;
+	left: 60%;
+	width: 25%;
+	bottom: 5%;
+
+}
+
+
+	form {
+	display: inline-block;
+	padding-left: 5px;
+	font-family:  serif;
+	 width: 30%;
+	}
+	form p {
+	text-align: center;
+ 	font-size: 16px;
+ 	color:black;
+ 	width: 100%;
+
+	}
+
+h3{
+	position: absolute;
+	font-weight: bold;
+	font-size: 33px;
+	font-family: Sans-rif;
+	left: 50%;
+	top: 5%;
+	transform: translateX(-50%);
+	font-size: 40px;
+}
+.ayuda{
+	position: absolute;
+	font-family: Times New Roman;
+	font-size: 15px;
+	text-align: justify-all;
+	top: 23%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+	}
+	
+	.rrss{
+		position: absolute;
+		top: 23px;
+	}
+.num {
+	position: absolute;
+	top: 90px;
+}
+.copy{
+	position: absolute;
+	top: 23px;
+}
+.contacto{
+	position: absolute;
+	top: 23px;
+}
+.gmail1{
+	position: absolute;
+	top: 60px;
+}
+.caja{
+	width: 210px;
+}
+.caja input{
+	width: 98%;
+}
+.sexos{
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+}
+.sexos p{
+margin:10px 0;
+}

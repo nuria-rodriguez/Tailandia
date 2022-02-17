@@ -1,0 +1,136 @@
+ #cultura{
+  background: url(../fotos/gastronomia3.png) no-repeat scroll;
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  overflow:hidden;
+  width: 100%;
+  height: 75vh;  
+}
+  #cultura h2{
+position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.6); 
+  color: white;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  font-weight: 500;  }
+
+  #comida{
+    position:  relative; 
+    width: 100%;
+    height: 600px;
+  }
+  h3{
+      font-weight: bold;
+  top:55px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-family: Sans-rif;
+  margin:0;
+
+  }
+  .plato1{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    top: 25%;
+    left: 5%;
+  }
+  .plato1 h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+  }
+  .plato1 p{
+    font-size: 15px;
+    font-family: Times New Roman;
+    text-align: justify;
+
+  }
+  .plato1 img{
+    position: absolute;
+width: 70%;
+height: 245px;
+top: 55%;
+left: 50%;
+transform: translateX(-50%);
+
+  }
+   .plato2{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    top: 25%;
+    left: 53%;
+  }
+   h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+  }
+  .plato2 p{
+    font-size: 15px;
+    font-family: Times New Roman;
+    text-align: justify;
+
+  }
+   .plato2 img{
+    position: absolute;
+  width: 70%;
+  height: 245px;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#comida2{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+ .plato3{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    top: 7%;
+    left:5%;
+  }
+ .plato3 p{
+    font-size: 15px;
+    font-family: Times New Roman;
+    text-align: justify;
+
+  }
+   .plato3 img{
+    position: absolute;
+  width: 70%;
+  height: 245px;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ .plato4{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    left:53%;
+    top: 7%;
+  }
+ .plato4 p{
+    font-size: 15px;
+    font-family: Times New Roman;
+    text-align: justify;
+
+  }
+   .plato4 img{
+    position: absolute;
+  width: 70%;
+  height: 245px;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}

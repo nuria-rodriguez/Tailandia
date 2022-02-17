@@ -1,0 +1,158 @@
+
+#tailandia{ 
+	background: url(../fotos/historia2.png) no-repeat scroll;
+	background-size: cover; 
+	background-position: center; 
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	height: 75vh;
+
+
+}
+#tailandia h2{
+	position: absolute;
+	background-color: hsla(0, 0%, 0%, 0.6); 
+	color: white;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	font-family: 'Times New Roman';
+	font-weight: 500;
+
+
+
+}
+
+.parrafo p{
+	font-size: 15px;
+	text-align: justify;
+font-family: Times New Roman;
+
+}
+.parrafo{
+
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	left:40px;
+
+}
+
+#div1{
+	margin-left: 540px;
+	margin-top: 220px;
+	color:white;
+	font-style: italic ;
+	font-size: 32px;
+	font-weight: bold;
+}
+#sonrisa{
+	background-color: #fff; 
+	position: relative;
+	width: 100%;
+	height:250px;
+	font-size: 22px;
+	padding-bottom: 800px;
+
+}
+
+#sonrisa h3{
+	width: 60%;
+	font-family: Sans-rif;
+	text-align: center;
+	left: 300px;
+	top: 30px;
+	position:absolute;
+	font-weight: bold;
+}
+
+
+.parrafo p{
+	position:absolute;
+	top:180px;
+	left: 28px;
+
+
+}
+.parrafo .p3{
+	position:absolute;
+	top:625.6px;
+	left: 600px;
+	width: 90%;
+	font-size: 15px;
+	font-family: Times New Roman;
+
+
+}
+.foto1{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 790px;
+	top:175px;
+}
+.foto2{
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	left: 70px;
+	top:630px;
+}
+h4{
+		width: 60%;
+		top:500px;
+		left: 36px;
+		font-size:30px;
+		font-family: Sans-rif;
+	 text-transform: uppercase;
+		position:absolute;
+		font-weight: bold;
+
+}
+.temploAy{
+	position: absolute;
+	font-size: 10px;
+	color:#949494;
+	right: 230px;
+	top:485px;	
+}
+.estatua{
+	position: absolute;
+	font-size: 10px;
+	color:#949494;
+left: 260px;
+	top:940px;	
+}
+#sonrisa{
+	position: relative;
+
+}
+figure{
+	margin: 0;
+}
+
+#sonrisa img{
+	position: absolute;
+	right:0;
+}
+
+#curiosidades h3{
+	font-size: 30px;
+	padding-left: 700px;
+	font-style: italic ;
+	position:absolute;
+	top: 1000px;
+	left: -240px;
+	font-weight: bold;
+}
+
+#curiosidades video{
+	position: absolute;
+	margin-left: 400px; 
+	top: 1040px;
+}
+
+
+

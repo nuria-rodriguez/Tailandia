@@ -1,0 +1,232 @@
+*{ 
+padding:0;
+margin: 0;
+}
+
+#clima { 
+	background: url(../fotos/clima.jpg) no-repeat scroll;
+	background-size: cover;
+	background-position: center; 
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	height: 75vh;
+
+}
+#clima h2{
+	position: absolute;
+	background-color: hsla(0, 0%, 0%, 0.6); 
+	color: white;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	font-family: 'Times New Roman';
+	font-weight: 500;
+}
+#tropical{
+	width: 100%;
+	height: 567px;
+}
+#tropical h3{
+	font-weight: bold;
+	top: 8%;
+	left: 50%;
+		transform: translateX(-50%);
+	position: absolute	;
+	text-align: center;
+	font-size: 33px;
+	font-family: Sans-rif;
+}
+#tropical{
+	position: relative;
+
+}
+
+.info p{
+	font-family: Times New Roman;
+	font-size: 15px;
+	position: relative;
+	left:-930px;
+
+	text-align: justify;
+	top: 140px;
+	width:407%
+
+}
+
+article img{
+width: 340px;
+height: 233px;	
+}
+
+.foto1{
+	position: absolute;
+	left: 55px;
+	top:335px;
+}
+
+.foto2{
+	position: absolute;
+	left: 450px;
+	top:335px;
+}
+
+.foto3{
+	position: absolute;
+	left: 840px;
+	top:335px;
+}
+
+
+.segundoarticle{
+	width: 100%;
+	height: 664px;
+	position: relative;
+
+
+}
+.segundoarticle h4{
+	position: absolute;
+	left: 27%;
+	top:60px;
+	transform: translateX(-50%);
+}
+.info2 {
+	position: absolute;
+	font-size: 15px;
+	top: 18%;
+	left: 4%;
+	width: 90%;
+	text-align: justify;
+}
+.segundoarticle h5{
+	position: absolute;
+	left: 15%;
+	top: 34%;
+	display: inline;
+	text-align: justify;
+	font-style: italic;
+	font-weight: bold;
+}
+.animal1{
+	position: absolute;
+	font-size: 15px;
+	text-align: justify;
+	top: 42%;
+	left: 4%;
+	width: 42%;
+	}
+
+.segundoarticle .elefante{
+	position: absolute;
+	left: 10%;
+	top: 65%;
+}
+
+
+
+.segundoarticle .h52{
+	position: absolute;
+	left: 64%;
+	top: 34%;
+	display: inline;
+}
+.texto{
+	position: absolute;
+	right: 5%;
+	top: 42%;
+}
+.mono{
+	position: absolute;
+	top: 65%;
+	left: 62%;
+
+}
+.tercerarticle{
+		width: 100%;
+	height: 600px;
+	position: relative;
+
+}
+.tercerarticle .h53{
+	position: absolute;
+	left: 7%;
+	top: 12%;
+	display: inline;
+
+}
+.texto2{
+	position: absolute;
+	top: 20%;
+	left: 4%;
+}
+.fotoparque{
+	position: absolute;
+	top: 44%;
+	left: 10%;
+}
+.tercerarticle .h54{
+	position: absolute;
+	left: 62%;
+	top: 12%;
+	display: inline;
+}
+ 
+.texto3{
+	position: absolute;
+	right: 5%;
+	top: 20%;
+}
+
+.gato{
+	position: absolute;
+	left: 62%;
+	top: 44%;
+}
+
+ h4{
+ 	display: inline;
+	position: absolute;
+	left: 50px;
+	font-size: 30px;
+	font-family: Sans-rif;
+	font-weight: bold;
+}
+h5{
+	font-style: italic;
+	font-weight: bold;
+		font-size: 15px;
+		display: inline;
+
+}
+article p{
+	font-family: Times New Roman;
+	position: absolute;
+	font-size: 15px;
+	text-align: justify;
+	width: 42%;
+
+}
+.num{
+	top: 90px;
+}
+.copy{
+  position: absolute;
+  text-align: center;
+  left: 37%;
+  top: 18%;
+
+}
+
+.contacto{
+	top: 23.8px;
+}
+.gmail {
+	position: absolute;
+	top: 20.5px;
+}
+
+.gmail1{
+	top:65px;
+}

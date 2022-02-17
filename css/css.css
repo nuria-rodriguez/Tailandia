@@ -1,0 +1,210 @@
+*{
+  font: 150% sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{ 
+  background-color: black;
+  text-align: center;
+}
+#menu{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+#menu ul{
+
+   display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  padding: 0;
+  margin: 0;
+  height:70px;
+}
+
+#menu ul li {
+
+    text-transform: uppercase;
+}
+
+#menu ul {
+
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+   font-family: Copperplate;
+   font-weight: bold;
+    display:block;
+    color: white;
+    text-decoration:none;
+    font-weight:400;
+    font-size:20px;
+    padding:10px;
+  letter-spacing:1px;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul li a:hover {
+    color: #000 ;
+}
+
+#menu ul ul {
+    display:none;
+
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+    z-index: 100;
+
+}
+
+#menu ul ul li {
+
+    float:none;
+    width:150px;
+
+}
+
+#menu ul ul a {
+    line-height:50%;
+    padding:13px 15px;
+  background-color: hsla(0, 0%, 0%, 0);
+
+}
+
+#menu ul li:hover > ul {
+height: 70px;
+display:block;
+}
+
+
+footer{
+  width: 100%;
+  height: 130px;
+  background: #434a54;
+
+}
+footer p{
+font-family:Times New Roman;
+color: white;
+
+}
+.redes{
+
+  position: absolute;
+  left: 90%;
+  width:70px;
+  height: 40px;
+  top:-5.5px;
+  z-index: 10;
+}
+.redes a{
+  display: inline-flex;
+ height: 16px;
+ width: 16px;
+
+}
+.redes img{
+  position: absolute;
+  top: 28.5px;
+  height: 20px;
+  width: 20px;
+  filter: invert(1);
+}
+
+
+.final{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  font-size: 13px;
+  font-family: sans-serif;
+
+}
+.imagenes{
+  position: absolute;
+top: 52px;
+left: 60px;
+
+}
+.imagenes img{
+  filter: invert(1);
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.rrss{
+  position: absolute;
+   top: 22px;
+  left: 40px;
+  margin:0;
+}
+.final img{
+  width: 25px;
+}
+ 
+.num{
+  font-size: 13px;
+  position: absolute;
+  top: 75px;
+  left: 34px;
+}
+.info{
+  position: absolute;
+  padding-top: 0px;
+  left: 1000px;
+
+}
+
+.copy{
+  position: absolute;
+  text-align: center;
+  left: 37%;
+}
+
+.gmail{
+  position: absolute;
+  top: 20px;
+  left: 1140px;
+  filter: invert(1);
+
+}
+.gmail {
+    cursor: pointer;
+
+}
+.gmail1{
+  top: 50px;
+  position: absolute;
+  left: 1037px;
+  font-size: 13.7px;
+}
+.contacto{
+  position: absolute;
+  left: 1050px;
+  top:2px;
+}
+.validator img{
+  position: absolute;
+  top: 70px;
+  left: 47%;
+
+}
